@@ -1,0 +1,19 @@
+on:
+  push:
+    branches:
+    - main
+  workflow_dispatch:
+  
+jobs:
+  my_job:
+    name: deploy to staging
+    runs-on: ubuntu-latest
+    steps:
+    - name: hhhh
+      run: |
+        git clone https://github.com/Kuroshimacat/apt-repo
+        cd apt-repo
+        cd debs
+        dpkg-scanpackages -m debs/ > Packages
+        gzip -c Packages > Packages.gz
+        bzip2 -k Packages
