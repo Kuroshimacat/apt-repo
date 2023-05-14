@@ -1,0 +1,17 @@
+Package: com.serena.santanderfm
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: serena
+Depends: firmware (>=14.0)
+Filename: debs/Santander_1.0.deb
+Size: 3488208
+MD5sum: b3622f482ca764273301ef5b08fc66f2
+SHA1: b39907e02c14373d0559791eb1a92752c7cbfc56
+SHA256: 7d1dd0a20294625f3d11b2ddc7eab2c5f085219eb888b9f1d6b2ad6260df2a76
+Section: Applications
+Description: Santander resigned with Linus Henze's CoreTrust bypass so it doesn't expire, and will persist in stock.
+Author: serena
+Depiction: https://permasigner-depictions.itsnebula.net/depiction?name=Santander
+Name: Santander
+Tags: compatible_min::ios14.0
+
