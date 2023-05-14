@@ -13,7 +13,6 @@ jobs:
       run: |
         git clone https://github.com/Kuroshimacat/apt-repo
         cd apt-repo
-        cd debs
         dpkg-scanpackages -m debs/ > Packages
         gzip -c Packages > Packages.gz
         bzip2 -k Packages
