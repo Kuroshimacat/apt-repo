@@ -1,0 +1,8 @@
+Origin: Kuroshima's Repo
+Label: Kurshima's Repo
+Suite: stable
+Version: 1.0.0
+Codename: Kuroshimarepo
+Architectures: iphoneos-arm
+Components: main
+Description: Kuroshima's lovely
